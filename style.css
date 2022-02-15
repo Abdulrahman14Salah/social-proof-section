@@ -17,10 +17,12 @@ body {
 .bg-top {
   position: absolute;
   top: 0;
+  z-index: -1;
 }
 .bg-bottom {
   position: absolute;
   bottom: 0;
+  z-index: -1;
 }
 .bg-top-desk {
   display: none;
@@ -121,11 +123,13 @@ body {
     display: block;
     position: absolute;
     top: 0;
+    z-index: -1;
   }
   .bg-bottom-desk {
     display: block;
     position: absolute;
     bottom: 0;
+    z-index: -1;
   }
   .container {
     max-width: 1185px;
