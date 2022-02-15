@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  max-width: 375px;
+  margin: auto;
+  position: relative;
+}
+.bg-top {
+  position: absolute;
+  top: 0;
+}
+.bg-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container .main-heading {
+  text-align: center;
+  padding: 1rem;
+}
+.container .main-heading h1 {
+  color: var(--Very-Dark-Magenta);
+}
+.container .main-heading p {
+  color: var(--Dark-Grayish-Magenta);
+}
+.container .container-box-rate {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.container .container-box-rate .box-rate {
+  background-color: var(--Light-Grayish-Magenta);
+  margin-bottom: 1rem;
+  padding: 1.4rem 0;
+  border-radius: 0.5rem;
+}
+.container .container-box-rate .box-rate .container-stars {
+  margin-bottom: 0.5rem;
+}
+.container .container-box-rate .box-rate span {
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+}
+.container .container-boxes {
+}
+.container .container-boxes .box {
+  background-color: var(--Very-Dark-Magenta);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+.container .container-boxes .box .avatar {
+  display: flex;
+  align-items: center;
+}
+.container .container-boxes .box .avatar img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.container .container-boxes .box .avatar h3 {
+  margin-left: 1.5rem;
+  color: var(--White);
+}
+.container .container-boxes .box .avatar h3 span {
+  display: block;
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--Soft-Pink);
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
+.container .container-boxes .box p {
+  color: var(--Light-Grayish-Magenta);
+  opacity: 0.8;
+}
