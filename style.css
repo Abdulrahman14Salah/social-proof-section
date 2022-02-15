@@ -22,6 +22,12 @@ body {
   position: absolute;
   bottom: 0;
 }
+.bg-top-desk {
+  display: none;
+}
+.bg-bottom-desk {
+  display: none;
+}
 .container {
   display: grid;
   justify-content: center;
@@ -110,6 +116,16 @@ body {
   }
   .bg-bottom {
     display: none;
+  }
+  .bg-top-desk {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  .bg-bottom-desk {
+    display: block;
+    position: absolute;
+    bottom: 0;
   }
   .container {
     max-width: 1185px;
