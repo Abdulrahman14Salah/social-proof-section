@@ -1,6 +1,10 @@
 # Frontend Mentor - Social proof section
 
-![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Social proof section coding challenge](abdulrahman14salah-github-io-social-proof-section.png)
+
+# Demo
+
+https://abdulrahman14salah.github.io/social-proof-section/
 
 ## Welcome! 👋
 
